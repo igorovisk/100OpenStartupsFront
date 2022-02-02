@@ -1,0 +1,57 @@
+.SectionWrapper {
+   padding: 15px;
+   background-color: #ffffff;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+
+   div {
+      display: flex;
+
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      
+      @media screen and (max-width: 665px) {
+         
+           flex-direction: column;
+         
+       }
+   }
+ 
+   th {
+      color: #1f89ca;
+   }
+}
+
+.FormWrapper {
+   form {
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+   }
+}
+
+.ButtonWrapper {
+   justify-content: center;
+   padding: 20px;
+   align-items: center;
+
+   Button {
+      margin: 10px;
+   }
+}
+
+.StartupBox {
+   justify-content: center;
+   margin: 20px;
+   align-items: center;  
+   border: 1px solid gray;
+   
+   Button {
+      margin: 10px;
+   }
+}
+

@@ -1,0 +1,72 @@
+h1 {
+   font-size: 20px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;  
+   margin: 10px;
+
+   button{
+      margin-top: 20px;
+   }
+}
+
+.TableTitle {
+   text-align: center;
+   padding: 35px;
+   color: rgb(31, 137, 202);
+   text-transform: uppercase;
+   border-bottom: 1px solid gray;
+}
+
+td {
+   display: flex;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+}
+
+th {
+   margin-top: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(11, 96, 187);
+}
+
+table {
+   padding: 0;
+   width: 85vw;
+   margin: auto;
+}
+
+.SearchBox {     
+
+   input {
+      height: 40px;
+      width: 256px;
+      font-size: 18px;
+      align-items: center;
+      text-align: center;
+      justify-content: center; 
+      padding: 8px;
+     
+   }
+}
+
+
+.ModalBox {
+   width: auto;
+   height: 100px;
+}
