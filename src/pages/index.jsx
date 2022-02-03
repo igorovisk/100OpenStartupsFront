@@ -17,7 +17,6 @@ const StartupList = ({ startups }) => {
          <Header title="Startups" />
          <SectionWrapper>
             <div>
-
                <div className="SearchBox">
                   <input
                      placeholder="Buscar por nome de startup"

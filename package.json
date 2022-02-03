@@ -26,8 +26,10 @@
     "react-icons": "^4.2.0",
     "react-input-mask": "^2.0.4",
     "react-modal": "^3.14.4",
+    "react-places-autocomplete": "^7.3.0",
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
+    "react-select": "^5.2.2",
     "react-super-responsive-table": "^5.2.0",
     "react-text-mask": "^5.4.3",
     "sass": "^1.35.1",
@@ -35,6 +37,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.3.0",

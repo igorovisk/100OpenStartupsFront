@@ -40,7 +40,7 @@ function StartupInformationPage({ startup }) {
             <ButtonWrapper additionalClasses="ButtonWrapper">
                <RedirectButton label="Voltar" href="/" />
                <RedirectButton href={`/startups/${id}/update/`} label="Alterar Startup" />
-               <Button label="Deletar Startup" handleClick={() => setModalState(true)} />
+               <Button label="Inativar Startup" handleClick={() => setModalState(true)} />
                {modalState && (
                   <DeleteModal
                      isOpen={modalState}
@@ -70,15 +70,13 @@ function StartupInformationPage({ startup }) {
                   </tr>
                   <tr>{<td>{startup.type}</td>}</tr>
                   <tr>
-                     <th>Endereço</th>
+                     <th>Localização</th>
                   </tr>
                   <tr>
                      {
                         <td>
                            <p>
-                              Rua {startup.street} <hr /> Bairro {startup.district} <hr /> {startup.city} <hr />{" "}
-                              {startup.state} <hr /> {startup.country} <hr />
-                              CEP: {startup.postalCode}{" "}
+                              {startup.location}
                            </p>
                         </td>
                      }

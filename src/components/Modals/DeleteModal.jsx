@@ -9,10 +9,10 @@ export function DeleteModal({ closeModal, handleClick, isOpen, additionalClasses
       <Modal className={[styles.DeleteModal, additionalClasses].join(" ")} isOpen={isOpen}>
          <ModalContentWrapper>
             <h1>ATENÇÃO</h1>
-            <h2>Você quer mesmo deletar essa startup?</h2>
+            <h2>Você quer mesmo inativar essa startup?</h2>
             <ButtonWrapper>
                <Button handleClick={closeModal} label="Cancelar" />
-               <Button handleClick={handleClick} label="Sim, quero deletar" />
+               <Button handleClick={handleClick} label="Sim, quero inativar" />
             </ButtonWrapper>
          </ModalContentWrapper>
       </Modal>

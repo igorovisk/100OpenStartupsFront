@@ -1,9 +1,29 @@
 .Input {
-  border: 1px solid #808080;
-  margin-bottom: 0px;
-  height: 40px;
-  width: 256px;
-  margin: 8px;
-  padding-left: 20px;
-  color: #1F89CA;
+   border: 1px solid #808080;
+   margin-bottom: 0px;
+   height: 40px;
+   width: 256px;
+   margin: 8px;
+   padding-left: 20px;
+   color: #1f89ca;
+}
+
+.SelectField {  
+   width: 256px;
+   height: 40px;
+   margin: 8px;   
+   justify-content: center;
+   text-align: center;
+   
+   option{
+      padding: 5px;
+      border: 1px solid gray
+   }
+   input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+    }
+   
 }

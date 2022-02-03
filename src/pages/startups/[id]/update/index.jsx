@@ -7,7 +7,6 @@ import { SectionWrapper } from "../../../../components/Wrappers/SectionWrapper"
 import { StartupForm } from "../../../../components/Form/StartupForm"
 import axiosClient from "../../../../services/api/axiosClient"
 
-
 function UpdateStartup({ startup }) {
    const { id } = startup
    const router = useRouter()
@@ -18,15 +17,10 @@ function UpdateStartup({ startup }) {
             name: data.name,
             description: data.description,
             type: data.type,
-            street: data.street,               
-            district: data.district,
-            city: data.city,
-            state: data.state,
-            country: data.country,
-            postalCode: data.postalCode,
+            location: data.location,
          })
          .then((data) => {
-            window.alert("Startup Alterada")       
+            window.alert("Startup Alterada")
             router.push("/")
          })
          .catch(function (error) {

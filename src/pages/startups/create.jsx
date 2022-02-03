@@ -13,17 +13,13 @@ export default function StartupRegisterForm() {
             name: inputData.name,
             description: inputData.description,
             type: inputData.type,
-            street: inputData.street,
-            district: inputData.district,
-            city: inputData.city,
-            state: inputData.state,
-            country: inputData.country,
-            postalCode: inputData.postalCode,
+            location: inputData.location,
          })
          .then((response) => {
             window.alert("Startup Criada")
          })
          .catch((error) => {
+            console.log(error)
             window.alert(error)
          })
    }

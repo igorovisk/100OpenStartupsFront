@@ -10,8 +10,7 @@ export function TextField({ name, placeholder, type = "text", values, additional
             placeholder={placeholder}
             type={type}
             className={[styles.Input, additionalClasses].join(" ")}
-            values={values}
-            component={component}
+            values={values}          
          />
       </>
    )
